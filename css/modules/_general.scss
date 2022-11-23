@@ -6,7 +6,6 @@
   outline: none;
   border: none;
   transition: .2s linear;
-  // text-transform: capitalize;
 }
 
 html {
@@ -16,6 +15,10 @@ html {
   color: white;
   background: $darkblue;
   font-family: "Poppins", sans-serif;
+}
+
+body::webkit-scrollbar {
+  display: none;
 }
 
 .font2 {
